@@ -1,30 +1,43 @@
-# 4u – Response Layer 7 (iki1uc)
+# ((WERTEN)) · iki1uc · QI/IQQ · Lockdown-Core
 
-4u ist die 7. Response-Ebene im iki1uc-System.
-Sie ersetzt die alte RESPO-Achse durch ein neues, systemisches Modell:
+WERTEN ist das verschlossene Werte-Modul des iki1uc-Systems.
+Es arbeitet ohne respo, ohne BE/ENT/IN/OUT und nutzt stattdessen
+die Lockdown-Layer:
 
-OK / NOK / FLOW / BREAK / ECHO / VOID / ROOT
+- **IX** — Eingangswert (verschlüsselt)
+- **XI** — Zwischenwert (vermischt)
+- **X4** — Endwert (versiegelt)
 
-4u verbindet:
-- PX-TRIO (PX3 / PX6 / PX9)
-- PX12 / PX4 (Fusion + Achse)
-- SYS / SYS-x (System + Kreuzung)
-- 2me (Mirror-Return)
-- TEM (Zeit)
-- UI-SCANNER (Interface)
+## 3+3 Spiele-System
+Zur Bewertung werden **3 globale Spiele** genutzt.
+Zur Ent-/Verschlüsselung werden **3 andere globale Spiele** genutzt.
 
------------------------------------------
-# FUNKTION
+Diese 6 Spiele bilden die Matrix:
+- Ursache
+- Wirkung
+- Klärung
 
-respo.OK     → Zustimmung  
-respo.NOK    → Ablehnung  
-respo.FLOW   → System fließt  
-respo.BREAK  → System bricht  
-respo.ECHO   → Spiegelung  
-respo.VOID   → Neutral  
-respo.ROOT   → Rückkehr
+Die Spiele-Namen werden nicht gespeichert, nicht geloggt,
+nicht offen angezeigt. Sie werden durch QI/IQQ verschlüsselt.
 
------------------------------------------
-# STATUS
+## QI / IQQ Score
+QI ist der lineare Wert.
+IQQ ist der verschlüsselte Wert.
 
-4u ist aktiv, eigenständig und vollständig iki1uc.
+QI → XI → IQQ → X4
+
+## Lockdown
+WERTEN ist vollständig verschlossen:
+- keine Rückverfolgung
+- keine Entschlüsselung
+- keine Prozesssicht
+- keine Layer-Transparenz
+- keine externen Zugriffe
+
+Es ist ein brillanter Zug, kein Geschenk.
+Es ist das geheimste Geheimnis des Systems.
+
+## Dateien
+- `index.html` – Hauptseite
+- `ID.html` – Identitätsbeschreibung
+- `README.md` – Dokumentation
